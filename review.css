@@ -1,0 +1,246 @@
+/*footer start here */
+.footer--col-section{
+  display: none
+}
+
+
+
+/*footer start here */
+
+/* review section  nav--section search boxbar start here*/
+.review--nav-searchbox{
+  
+  
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 25px;
+  margin-left: 19px;
+  margin-bottom: 15px;
+  
+  border-width:0.3px ;
+  box-shadow: 1px 3px  7px gray;
+
+}
+.review--nav-searchbox::placeholder{
+  font-size: 25px;
+ padding-left: 20px;
+}
+@media(max-width:1324px){
+  .right-icon-name{
+    display: none;
+  }
+}
+@media(max-width:1100px){
+  .right-icon-name{
+    display: none;
+  }
+  .right-section-icon{
+    display: none;
+  }
+  .review--nav-searchbox{
+    width: 400px;
+    margin-right:100px ;
+   
+  }
+
+}
+@media(max-width:768px){
+  .review--nav-searchbox{
+   width: 350px;
+    height: 30px;
+    border-radius: 10px ;
+    margin-right: 60px;
+   
+   
+  }
+  .review--nav-searchbox::placeholder{
+    font-size: 12px;
+   padding-left: 20px;
+  }
+
+}
+/* review section  nav--section search boxbar ends here*/
+
+
+
+/* review section search boxbar start here*/
+.review--img--section img{
+    width: 160px;
+  
+
+    
+    
+}
+.review--img--section{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.review--main--section{
+  background-color: rgba(245, 227, 238, 0.808);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.review--search--bar{
+width: 400px;
+  height: 40px;
+  border-radius: 25px;
+  margin: 20px;
+
+  
+}
+.review--search--bar::placeholder{
+    padding-left: 20px;
+
+}
+@media(min-width:1100px){
+  .review--main--section{
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+  .review--img--section img{
+    width: 200px;
+  }
+  .review--heading-description{
+    font-size: 20px;
+ 
+  }
+  .review--heading{
+    font-size: 56px;
+  }
+  .review--search--bar{
+    width: 800px;
+    padding: 30px;
+    border-radius: 30px;
+  }
+  .review--search--bar::placeholder{
+    padding-left: 30px;
+    font-size: 18px;
+
+}
+}
+@media(max-width:768px){
+  .review--img--section img{
+    width: 100px;
+  }
+  .review--heading-description{
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .review--heading{
+    font-size: 26px;
+  }
+}
+@media(max-width:560px){
+  .review--heading-description{
+    padding-top: 10px;
+    font-size: 8.5px;
+  }
+}
+/* review section search boxbar ends here*/
+
+/*review--second section --start here*/
+
+.review--second--secton{
+  padding: 50px;
+ display: flex;
+ justify-content: end;
+ gap: 60px;
+
+
+}
+.review--second--section--heading{
+  font-size: 40px;
+}
+.review--second--section--right{
+  position: relative;
+}
+.second--section--postion-absolute{
+  position: absolute;
+
+ left: 10%;
+  top: 62%;
+
+ 
+
+}
+.review-second-section-img-heading{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+
+}
+.review--second--section--description--img{
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+  color: #fff;
+  font-weight: 700;
+  
+}
+.review--second-section-btn--img{
+  border: transparent;
+  background-color: #fff;
+  width: 100px;
+  padding: 5px;
+  
+
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 400;
+ 
+
+}
+@media(max-width:768px){
+  .review--second--secton{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .review--second--section--heading{
+    font-size: 28px;
+    text-align: center;
+  }
+  .review--second--section--description{
+    text-align: center;
+  }
+ 
+
+
+}
+
+
+
+
+
+/*review--second section --start here*/
+
+.review--addsection{
+  text-align: end;
+  padding: 4rem;
+  line-height: 2rem;
+ 
+}
+.review--btn--addsection{
+  text-align: center;
+  width: 300px;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.review--btn--addsection:hover{
+  background-color: #000;
+  box-shadow: 2px 3px 15px 6px gainsboro;
+
+  color:#fff ;
+}

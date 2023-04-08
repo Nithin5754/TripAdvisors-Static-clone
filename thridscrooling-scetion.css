@@ -1,0 +1,52 @@
+.third-scrooling-section-container{
+  padding: 1.3rem;
+
+}
+.third-scrooling-img-container{
+position: relative;
+
+
+
+
+
+}
+.third-scrooling-img-name{
+
+
+position: absolute;
+bottom: 0;
+left: 0;
+color: #fff;
+font-weight: 700;
+text-align: center;
+margin-left: 20px;
+padding-bottom: 10px;
+
+
+
+
+
+}
+.third-scrooling-main-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+overflow-x: scroll;
+gap: 20px;
+
+
+
+
+
+}
+.third-scrooling-section-heading-name{
+  margin: 30px 20px;
+}
+
+.third-scrooling-img-container img{
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px;
+}
+.third-scrooling-img-container img:hover{
+  border-radius: 10px;
+box-shadow: 2px 2px 8px white;
+}

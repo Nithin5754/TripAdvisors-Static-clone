@@ -1,0 +1,148 @@
+.img-donation{
+  width: 600px;
+  margin: 20px;
+  border: transparent;
+  border-radius: 200px;
+}
+
+.donation-main{
+display: flex;
+background-color: #f2b203;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 50px;
+margin-bottom: 50px;
+border: transparent;
+box-shadow: 2px 2px 20px;
+border-radius: 10px;
+
+}
+
+@media(min-width:1200px){
+.donation-img-section{
+width:650px;
+
+}
+.tripadvisor-foundation-name{
+font-size: 29px;
+font-weight: 700;
+}
+
+.donation-description-section{
+flex: 1;
+text-align: center;
+margin: 90px;
+}
+.logo-name-donation-section{
+display: flex;
+gap: 20px;
+align-items: center;
+margin-left:50px ;
+}
+.btn-donation{
+background-color: black;
+color: white;
+width: 90px;
+height: 40px;
+border-radius: 20px;
+
+
+}
+}
+@media(max-width:1199px){
+
+.img-donation{
+  width: 200px;
+  
+  
+ 
+}
+.tripadvisor-foundation-name{
+font-size: 25px;
+font-weight: 600;
+}
+
+
+
+.donation-description-section{
+width: 300px;
+flex: 1;
+text-align: center;
+padding-top: 30px;
+
+
+
+}
+.logo-name-donation-section{
+display: flex;
+gap: 20px;
+align-items: center;
+margin-left: 50px;
+ 
+}
+.btn-donation{
+background-color: black;
+color: white;
+width: 90px;
+height: 38px;
+border-radius: 20px;
+margin: 10px;
+
+}
+.donation-para{
+
+height: 35px;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+}
+@media(max-width:606px){
+  .donation-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .img-donation{
+    width: 400px;
+    border-radius: 2px;
+    
+    
+   
+  }
+  
+.donation-description-section{
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  
+  
+  
+  
+  }
+.tripadvisor-foundation-name{
+font-size: 25px;
+font-weight: 600;
+}
+.donation-para{
+display: none;
+}
+.donation-description-section{
+
+border: transparent;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+
+}
+@media(max-width:490px){
+  .donation-img-section img{
+    width: 100%;
+    margin: 0 auto ;
+    object-fit: fill;
+    border-radius: 8px;
+
+  }
+
+}

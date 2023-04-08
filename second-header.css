@@ -1,0 +1,182 @@
+.second-header{
+  display: block;
+  display: flex;
+  
+  justify-content: space-between;
+ 
+ 
+ 
+ 
+
+  
+  
+ 
+ 
+  
+}
+@media(min-width:769px){
+  .second-header-left-section{
+  display: flex;
+  flex-direction: column;
+  background-color:#e0dad8;
+  flex: 1;
+   height: 100%;
+  gap: 10px;
+  
+  padding: 30px;
+ 
+ 
+ 
+}
+.second-header-btn{
+  background-color: rgb(26, 22, 22);
+  color: #fff;
+
+  border-radius: 10px;
+  font-weight: 600;
+  border-style: solid;
+  padding: 5px;
+  cursor: pointer;
+
+}
+.second-header-right-section{
+  width: 320px;
+  height: 223px;
+  
+ 
+}
+.second-header-img{
+  width: 320px;
+  height: 100%;
+ 
+ 
+ 
+ 
+  
+}
+.second-header-secon-para{
+  border: transparent;
+
+
+  height: 16px;
+  overflow: hidden;
+ text-overflow: ellipsis;
+
+}
+}
+@media(max-width:768px){
+  .second-header{
+    border: transparent;
+    margin-left: 10px;
+    margin-right:10px;
+    
+  }
+  .second-header-left-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #e0dad8;
+  flex: 1;
+  padding: 16px;
+  gap: 10px;
+  height: 100%;
+ 
+ 
+ 
+}
+.second-header-btn{
+ background-color: transparent;
+ border: transparent;
+ text-decoration: underline;
+ font-weight: 700;
+
+
+}
+.second-header-right-section{
+  width: 250px;
+  height: 100%;
+  
+ 
+}
+.second-header-img{
+  width: 250px;
+  
+ 
+ 
+ 
+  
+}
+.second-header-secon-para{
+  display: none;
+ 
+}
+.second-header-first-para{
+
+  height: 29px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+}
+@media(max-width:675px){
+
+  .second-header{
+    border: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+  }
+  .second-header-left-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #e0dad8;
+  flex: 1;
+  padding: 45px;
+ 
+  gap: 10px;
+  height: 100%;
+ 
+ 
+ 
+}
+.second-header-btn{
+  width: 60px;
+
+ font-size: 12px;
+ text-decoration: underline;
+
+
+
+ 
+ 
+
+}
+.second-header-right-section{
+  width: 203px;
+  height: 100%;
+  align-items: center;
+  
+ 
+}
+.second-header-img{
+  width: 203px;
+  
+ 
+ 
+ 
+  
+}
+.second-header-secon-para{
+  display: none;
+ 
+
+}
+.second-header-first-para{
+  display: none;
+  
+}
+
+}
+@media(max-width:490px){
+  .second-header{
+    display: none;
+  }
+}

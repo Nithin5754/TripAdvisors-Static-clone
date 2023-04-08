@@ -1,0 +1,148 @@
+
+.signIn--heading--wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: rgba(185, 197, 219, 0.644);
+}
+.signIn--heading--left img{
+  margin: 0 auto;
+  width: 180px;
+}
+.signIn--right--profile img{
+  margin: 0 auto;
+  width: 60px;
+  height: 50px;
+  border-radius: 100%;
+}
+.signIn--heading--right{
+  display: inline-block;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+ 
+
+}
+/*form heading*/
+.signIn--section--heading{
+  text-align: center;
+  padding: 1rem;
+  font-size: 25px;
+}
+.signIn--form{
+  text-align: center;
+ max-width: 500px;
+ width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.signIn--form label{
+
+  display: block;
+  font-size: 20px;
+  
+ 
+  margin-left: 8%;
+ 
+  margin-right: 29%;
+  
+ 
+ 
+ 
+  
+ 
+  margin-bottom: 0.1rem;
+ font-size: 18px;
+ font-weight: 500;
+  
+
+}
+.signIn--email--textbox{
+  width: 100%;
+  max-width: 400px;
+  padding: 0.8rem;
+
+  margin-bottom: 1rem;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px gray;
+
+}
+.signIn--email--textbox:hover{
+  box-shadow: 1px 1px 3px #ffff;
+}
+.signIn--email--button{
+  width: 100%;
+  max-width: 400px;
+
+  padding: 1.1rem;
+  border-radius: 7px;
+  font-size: 21px;
+
+  font-weight: 600;
+  background-color: rgb(51, 51, 199);
+  border: transparent;
+  color: #fff;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+  transition: 0.15s;
+ 
+}
+.signIn--email--button:hover{
+  opacity: 1;
+ 
+  
+}
+.signIn--socials--wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+  gap: 2rem;
+
+ 
+  
+}
+.signIn--socials{
+  border: solid 1px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+
+  text-align: center;
+  box-shadow: 2px 2px 6px;
+}
+.signIn--socials:hover{
+  box-shadow: 2px 2px 6px 
+  #fff;
+}
+.signIn--socials svg{
+  width: 35px;
+  height: 30px;
+
+}
+.signIn--moreOption {
+  color: #000;
+ 
+  
+}
+.signIn--section-desc{
+ margin-left: 70px;
+ margin-right: 70px;
+ padding-top: 2rem;
+ 
+}
+.signIn--rights{
+  padding: 1rem;
+}
+.signIn--section-desc a{
+  color: blue;
+}
+

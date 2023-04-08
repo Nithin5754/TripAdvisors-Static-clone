@@ -1,0 +1,200 @@
+
+
+
+.header-main-section{
+  position: static;
+margin-left: 5px;
+  margin-right: 5px;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(213, 193, 231);
+ 
+  border-bottom: solid 1px;
+  box-shadow: 1px 1px 3px;
+
+
+ 
+
+
+  
+}
+@media(min-width:769px){
+  .left-header-section{
+    flex: 1;
+    height: 100%;
+   
+   
+    background-color: rgb(213, 193, 231);
+    padding: 30px;
+   
+    
+    
+   
+  }
+  
+  .left-section-heading{
+    height: 23px;
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+  }
+  
+  .heading-name{
+    font-size: 22px;
+    font-weight: 550;
+   
+
+   
+  
+  }
+  
+  
+  .left-section-paragraph{
+  
+    border: transparent;
+    
+    height: 16px;
+    color: rgb(36, 30, 30);
+    font-weight: 400;
+    font-size: 15px;
+    
+  
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .left-header-button-section{
+    color: #fff;
+    background-color: black;
+    width: 120px;
+    height: 45px;
+    border-radius: 60px;
+    margin-top: 20px;
+  }
+  
+  
+  .right-header-section{
+    width: 420px;
+    height: 100%;
+  
+    
+   
+  
+  }
+  .header-img{
+    display: flex;
+    width: 420px;
+  
+    height: 170px;
+  }
+}
+
+
+@media(max-width:768px){
+  .header-img{
+    display: flex;
+   
+    width: 280px;
+  
+    height: 100px;
+
+  }
+  .left-section-heading{
+    height: 23px;
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+  }
+  .right-header-section{
+    width: 280px;
+    height:100px;
+  
+    
+   
+  
+  }
+  
+.left-header-section{
+ 
+  height: 100px;
+  flex: 1;
+ 
+ 
+  background-color: rgb(213, 193, 231);
+  padding: 30px;
+ 
+  
+  
+ 
+}
+.left-header-button-section{
+  color:black;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  
+ 
+  
+  
+}
+.left-section-paragraph{
+display: none;
+
+
+}
+.heading-name{
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+
+
+
+
+
+
+}
+@media(max-width:540px){
+  .heading-name{
+  
+    font-size: 13px;
+    font-weight: 600;
+  
+  }
+  .left-header-button-section{
+    padding-top: 15px;
+  }
+  .header-img{
+    display: flex;
+    width: 180px;
+    
+  
+    height: 100px;
+
+  }
+  .right-header-section{
+    width: 180px;
+    height: 100px;
+    
+    
+  
+    
+   
+  
+  }
+  
+
+}
+
+
+
+
+
+

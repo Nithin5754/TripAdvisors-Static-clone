@@ -1,0 +1,163 @@
+.header-btn-main-container{
+      
+  display: grid;
+  padding: 1rem;
+  
+  
+
+  box-sizing: border-box;
+  
+}
+.header-section-btn{
+  box-shadow: 2px 4px 10px;
+
+  cursor: pointer;
+  border-color: transparent;
+  border-style: groove;
+  
+
+}
+.btn-header-name a{
+  color: black;
+
+
+}
+
+.header-section-btn:hover{
+ background-color: rgb(193, 186, 255);
+ color: #ffff;
+
+
+}
+.header-section-btn{
+  transition: 0.15s;
+}
+
+
+
+
+@media(min-width:1151px){
+  .header-btn-main-container{
+  
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+  gap: 5px;
+ 
+  
+
+}
+
+}
+@media(1000px <= width <= 1150px){
+  .header-btn-main-container{
+  
+
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 5px;
+ 
+  
+
+}
+
+}
+@media(769px <= width <= 999px){
+  .header-btn-main-container{
+  
+
+  grid-template-columns: 1fr 1fr  ;
+  gap: 5px;
+ 
+  
+
+}
+
+}
+@media(max-width:768px){
+  .header-btn-main-container{
+  
+  
+  grid-auto-flow: 100%;
+  column-gap: 10px;
+  grid-auto-flow: column;
+  list-style: none;
+  overflow-x:scroll;
+
+ 
+  
+  scroll-snap-type:x mandatory;
+  
+ 
+  
+
+}
+.header-btn-main-container::-webkit-scrollbar-thumb{
+  height: 2px;
+}
+
+
+}
+
+
+.header-section-btn{
+
+  
+
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10PX;
+  border-width: 1PX;
+  background-color: transparent;
+  
+
+}
+.btn-header-name{
+  font-size: 17px;
+  font-weight: 600;
+  padding-right:55px ;
+}
+@media(max-width:502px){
+  .header-btn-main-container{
+ 
+  
+    grid-auto-flow: 100%;
+    column-gap: 10px;
+    grid-auto-flow: column;
+    list-style: none;
+    overflow-x:scroll;
+  
+    
+    
+    
+    
+   
+    
+  
+  }
+  .header-btn-main-container::-webkit-scrollbar-thumb{
+    height: 2px;
+  }
+  
+  
+  }
+  @media(max-width:490px){
+    .btn-header-name a{
+          font-size: 12px;
+         flex: 4;
+    }
+    .header-section-btn{
+      width: 170px;
+      height: 50px;
+    }
+    .btn-header-svg{
+      flex: 1;
+      
+    }
+    .logo-name-donation-section img{
+      width: 30px;
+    }
+ 
+}
+  

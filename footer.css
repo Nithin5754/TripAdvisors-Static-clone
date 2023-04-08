@@ -1,0 +1,136 @@
+
+footer{
+  background-color: #e0dad8;
+  padding: 50px;
+ 
+}
+
+.footer--col-head{
+  display: flex;
+}
+.footer--text,.footer--text-description,.footer--legal-list li{
+  list-style-type: none;
+}
+
+.footer--legal--text-list a{
+  color: black;
+  font-weight: 500;
+  
+  
+}
+.footer--legal--text-list a:hover{
+  color: darkgreen;
+ 
+  opacity: 0.9;
+}
+
+ 
+ 
+
+@media(min-width: 1000px){
+  .footer--col-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer--text-icon{
+    display: none;
+  }
+  .footer--logo-legal--section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    line-height: 25px;
+    gap: 15px;
+  }
+  .footer--legal-list{
+    display: grid;
+    grid-template-columns: 150px 230px 130px 80px;
+    
+    
+  
+    transition: 0.15s;
+   
+   
+  }
+
+  .footer--currency, .footer--country{
+   width: 100%;
+   border-radius: 10px;
+    height: 30px;
+   
+    
+  }
+  .footer--dropdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+   
+  }
+  .footer--last-description{
+    border: transparent;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media(max-width:999px){
+  .footer--text,.footer--text-description{
+      display: none;
+  }
+  
+  .footer--legal-list{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 20px;
+    
+  
+
+
+   
+   
+
+   
+  }
+  .footer--logo-legal--section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer--currency, .footer--country{
+    width: 100%;
+    border-radius: 10px;
+     height: 30px;
+     margin: 20px;
+   
+    
+     
+   }
+   .footer--dropdown{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 10px;
+     align-items: center;
+    
+   }
+   .footer--last-description{
+    border: transparent;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .footer-logo-img img{
+    width: 30px;
+    margin-bottom: 20px;
+  }
+  .footer--legal-section{
+   
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+
+}
+
+
